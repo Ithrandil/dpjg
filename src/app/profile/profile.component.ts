@@ -23,17 +23,17 @@ export class ProfileComponent {
     summary:`Je suis dessinateur projeteur dans le bâtiment, que ce soit pour un particulier ou un professionnel.<br><br>
       Je travaille depuis des années sur les logiciels AUTOCAD et EASYKUTCH pour des appels d'offre.<br><br>
       Les gros projets de bâtiments sont toujours sur plusieurs mois, ce qui implique un investissement tout du long. Connaissant le processus allant de l'implantation par un géomètre jusqu'à la remise du bâtiment au client. Je connais la communication à avoir avec la mairie, l'entourage, les problématiques de chantier propre, les validations des produits...
-      <br><br>Je suis capable de vous accompagner pour tout vos projets.`,
+      <br><br>Je suis capable de vous accompagner pour tous vos projets.`,
     experiences: [
       {
-        company: 'Nom de ta boite à Paris',
-        companyDomain: 'Je sais pas',
+        company: 'Société Parisienne de Construction',
+        companyDomain: 'BTP & construction',
         jobTitle: 'Dessinateur projeteur',
         description: 'Dessinateur projeteur en entreprise de gros œuvre pour appels d’offre et organisation,\n' +
           'coordination avec architectes, des documents, plans d’exécution de chantier, et synthèse de plans corps\n' +
           'd’état secondaires.',
-        location: 'Paris (75)',
-        date: '2020-2022 (2 ans)'
+        location: 'Pontault-Combault (75)',
+        date: 'juin 2020 - novembre 2022 (2 ans et 4 mois)'
       },
       {
         company: 'SARL Les Verdiers',
@@ -45,11 +45,11 @@ export class ProfileComponent {
       },
       {
         company: 'SOCOTEC',
-        companyDomain: 'Nucléaire?',
+        companyDomain: 'Immobilier',
         jobTitle: 'Technicien projeteur',
-        description: 'Suivi technique peau composite, transport et tir de détection de plomb, assistance logistique équipe commune, repérage trémie EPR, création et rédaction de gamme de suivi de bâtiment nucléaire',
-        location: 'Blaye (33?)',
-        date: '2014-2018 (4 ans)'
+        description: 'Appuis techniques dans les bâtiments nucléaire. Suivi technique peau composite, transport et tir de détection de plomb, assistance logistique équipe commune, repérage trémie EPR, création et rédaction de gamme de suivi de bâtiment nucléaire',
+        location: 'Blaye (33)',
+        date: 'juillet 2014 - février 2018 (3 ans et 7 mois)'
       },
     ]
   }
