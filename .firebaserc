@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "dpjg-f4187": {
+      "hosting": {
+        "dpjg": [
+          "dpjg-f4187"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "dpjg-f4187"
+  }
+}
