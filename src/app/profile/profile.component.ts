@@ -20,6 +20,10 @@ export class ProfileComponent {
       profilePicUrl: 'assets/profile/profilePicture.jpg',
       location: 'Vendôme'
     },
+    summary:`Je suis dessinateur projeteur dans le bâtiment, que ce soit pour un particulier ou un professionnel.<br><br>
+      Je travaille depuis des années sur les logiciels AUTOCAD et EASYKUTCH pour des appels d'offre.<br><br>
+      Les gros projets de bâtiments sont toujours sur plusieurs mois, ce qui implique un investissement tout du long. Connaissant le processus allant de l'implantation par un géomètre jusqu'à la remise du bâtiment au client. Je connais la communication à avoir avec la mairie, l'entourage, les problématiques de chantier propre, les validations des produits...
+      <br><br>Je suis capable de vous accompagner pour tout vos projets.`,
     experiences: [
       {
         company: 'Nom de ta boite à Paris',
