@@ -20,7 +20,7 @@ export class MenuComponent implements OnInit {
       {
         label: 'Mes compétences',
         icon: PrimeIcons.BOOK,
-        routerLink:['/']
+        routerLink:['/profil']
       },
       {
         label: 'Vous êtes un(e)...',
@@ -56,7 +56,7 @@ export class MenuComponent implements OnInit {
       {
         label: 'Me contacter',
         icon: `${PrimeIcons.ID_CARD} my-margin-left`,
-        routerLink:['/']
+        routerLink:['/contact']
       },
     ];
   }
