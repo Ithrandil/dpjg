@@ -1,0 +1,19 @@
+<div class="flex flex-column">
+<!--  TODO: vérifier l'arborescence après implem pour le niveau de titre-->
+  <div class="flex  justify-content-between align-items-center">
+    <h3><span class="pi pi-building mr-2" style="font-size: 1.5rem"></span>{{experience.company}}</h3>
+    <p class="companyDomain">{{experience.companyDomain}}</p>
+  </div>
+  <p class="jobTitle">{{experience.jobTitle}}</p>
+  <div class="jobMoreInfos">
+    <span>
+      <span class="pi pi-map mr-1" ></span>
+      {{experience.location}}
+    </span>
+    <span>
+      <span class="pi pi-calendar ml-4 mr-1" ></span>
+      {{experience.date}}
+    </span>
+  </div>
+  <p>{{experience.description}}</p>
+</div>

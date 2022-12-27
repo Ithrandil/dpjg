@@ -8,6 +8,7 @@ import {FooterModule} from "./footer/footer.module";
 import {ProfileModule} from "./profile/profile.module";
 import {HomeModule} from "./home/home.module";
 import {ContactModule} from "./contact/contact.module";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import {ContactModule} from "./contact/contact.module";
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     HeaderModule,
     FooterModule,

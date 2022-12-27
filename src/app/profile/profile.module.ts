@@ -3,6 +3,9 @@ import { CommonModule } from '@angular/common';
 import { ExperiencesComponent } from './experiences/experiences.component';
 import { ProfileComponent } from './profile.component';
 import { SkillsComponent } from './skills/skills.component';
+import { PanelModule } from 'primeng/panel';
+import { ExperienceComponent } from './experience/experience.component';
+import { DividerModule } from 'primeng/divider';
 
 
 
@@ -10,10 +13,13 @@ import { SkillsComponent } from './skills/skills.component';
   declarations: [
     ExperiencesComponent,
     ProfileComponent,
-    SkillsComponent
+    SkillsComponent,
+    ExperienceComponent
   ],
   imports: [
-    CommonModule
-  ]
+    CommonModule,
+    PanelModule,
+    DividerModule
+]
 })
 export class ProfileModule { }
