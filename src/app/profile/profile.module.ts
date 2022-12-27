@@ -6,6 +6,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { PanelModule } from 'primeng/panel';
 import { ExperienceComponent } from './experience/experience.component';
 import { DividerModule } from 'primeng/divider';
+import { SummaryComponent } from './summary/summary.component';
+import { ProfileHeaderComponent } from './profile-header/profile-header.component';
 
 
 
@@ -14,7 +16,9 @@ import { DividerModule } from 'primeng/divider';
     ExperiencesComponent,
     ProfileComponent,
     SkillsComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    SummaryComponent,
+    ProfileHeaderComponent
   ],
   imports: [
     CommonModule,
