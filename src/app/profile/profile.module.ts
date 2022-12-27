@@ -23,7 +23,7 @@ import { ProfileHeaderComponent } from './profile-header/profile-header.componen
   imports: [
     CommonModule,
     PanelModule,
-    DividerModule
+    DividerModule,
 ]
 })
 export class ProfileModule { }

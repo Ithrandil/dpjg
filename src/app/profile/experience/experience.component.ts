@@ -1,5 +1,5 @@
 import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
-import {Experience} from "../../domain/IExperience";
+import {IExperience} from "../../domain/IExperience";
 
 @Component({
   selector: 'app-experience',
@@ -8,6 +8,6 @@ import {Experience} from "../../domain/IExperience";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class ExperienceComponent {
-  @Input() experience!: Experience;
+  @Input() experience!: IExperience;
 
 }
