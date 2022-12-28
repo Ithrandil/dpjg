@@ -29,27 +29,27 @@ export class MenuComponent implements OnInit {
           {
             label: 'entreprise de gros oeuvre',
             icon: PrimeIcons.TRUCK,
-            routerLink:['/']
+            routerLink:['/gros-oeuvre']
           },
           {
             label: 'agence immo / syndic de copro',
             icon: PrimeIcons.BRIEFCASE,
-            routerLink:['/']
+            routerLink:['/immobilier']
           },
           {
             label: 'cabinet d\'architecte',
             icon: PrimeIcons.HOME,
-            routerLink:['/']
+            routerLink:['/architecture']
           },
           {
             label: 'bureau d\'étude',
             icon: PrimeIcons.MAP,
-            routerLink:['/']
+            routerLink:['/bureau-etude']
           },
           {
             label: 'municipalité / collectivité',
             icon: PrimeIcons.USERS,
-            routerLink:['/']
+            routerLink:['/collectivite']
           },
         ]
       },

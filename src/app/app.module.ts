@@ -9,6 +9,7 @@ import {ProfileModule} from "./profile/profile.module";
 import {HomeModule} from "./home/home.module";
 import {ContactModule} from "./contact/contact.module";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {ProspectModule} from "./prospect/prospect.module";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     FooterModule,
     ProfileModule,
     HomeModule,
-    ContactModule
+    ContactModule,
+    ProspectModule
   ],
   providers: [],
   bootstrap: [AppComponent]
