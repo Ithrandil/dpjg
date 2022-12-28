@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { StructuralWorkProspectComponent } from './structural-work-prospect/structural-work-prospect.component';
 import { RealEstateProspectComponent } from './real-estate-prospect/real-estate-prospect.component';
 import { ArchitectProspectComponent } from './architect-prospect/architect-prospect.component';
+import { TownshipProspectComponent } from './township-prospect/township-prospect.component';
 
 
 
@@ -10,7 +11,8 @@ import { ArchitectProspectComponent } from './architect-prospect/architect-prosp
   declarations: [
     StructuralWorkProspectComponent,
     RealEstateProspectComponent,
-    ArchitectProspectComponent
+    ArchitectProspectComponent,
+    TownshipProspectComponent
   ],
   imports: [
     CommonModule

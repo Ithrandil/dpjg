@@ -6,6 +6,7 @@ import {ContactComponent} from "./contact/contact.component";
 import {StructuralWorkProspectComponent} from "./prospect/structural-work-prospect/structural-work-prospect.component";
 import {RealEstateProspectComponent} from "./prospect/real-estate-prospect/real-estate-prospect.component";
 import {ArchitectProspectComponent} from "./prospect/architect-prospect/architect-prospect.component";
+import {TownshipProspectComponent} from "./prospect/township-prospect/township-prospect.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'gros-oeuvre', component: StructuralWorkProspectComponent},
   { path: 'immobilier', component: RealEstateProspectComponent},
   { path: 'architecture', component: ArchitectProspectComponent},
+  { path: 'collectivite', component: TownshipProspectComponent},
   { path: '**', redirectTo: '/' },
 ];
 
