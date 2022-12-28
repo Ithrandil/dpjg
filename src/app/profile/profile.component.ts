@@ -24,6 +24,48 @@ export class ProfileComponent {
       Je travaille depuis des années sur les logiciels AUTOCAD et EASYKUTCH pour des appels d'offre.<br><br>
       Les gros projets de bâtiments sont toujours sur plusieurs mois, ce qui implique un investissement tout du long. Connaissant le processus allant de l'implantation par un géomètre jusqu'à la remise du bâtiment au client. Je connais la communication à avoir avec la mairie, l'entourage, les problématiques de chantier propre, les validations des produits...
       <br><br>Je suis capable de vous accompagner pour tous vos projets.`,
+    skills: [
+      {
+        name: 'AutoCAD',
+        level: 3
+      },
+      {
+        name: 'DAO',
+        level: 3
+      },
+      {
+        name: 'Bâtiment',
+        level: 3
+      },
+      {
+        name: 'EasyKutch',
+        level: 3
+      },
+      {
+        name: 'Gestion de projet',
+        level: 2
+      },
+      {
+        name: 'Métreur',
+        level: 2
+      },
+      {
+        name: 'CAO',
+        level: 2
+      },
+      {
+        name: 'Sketchup',
+        level: 1
+      },
+      {
+        name: 'EBP',
+        level: 1
+      },
+      {
+        name: 'Suivi de chantier',
+        level: 3
+      },
+    ],
     experiences: [
       {
         company: 'Société Parisienne de Construction',

@@ -10,6 +10,8 @@ import { SummaryComponent } from './summary/summary.component';
 import { ProfileHeaderComponent } from './profile-header/profile-header.component';
 import { SchoolCurriculumComponent } from './school-curriculum/school-curriculum.component';
 import { SchoolComponent } from './school/school.component';
+import { RatingModule } from 'primeng/rating';
+import {FormsModule} from "@angular/forms";
 
 
 
@@ -28,6 +30,8 @@ import { SchoolComponent } from './school/school.component';
     CommonModule,
     PanelModule,
     DividerModule,
+    RatingModule,
+    FormsModule
 ]
 })
 export class ProfileModule { }

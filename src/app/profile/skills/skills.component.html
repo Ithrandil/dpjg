@@ -1,1 +1,45 @@
-<p>skills works!</p>
+<p-panel [header]=skillsTitle>
+  <div class="md:hidden" *ngFor="let skill of skills; last as isLast">
+    <div class="flex flex-1 justify-content-between">
+      <div>{{skill.name}}</div>
+      <p-rating [(ngModel)]=skill.level [stars]=3 [cancel]="false" [readonly]=true iconOnClass="pi pi-circle-fill" iconOffClass="pi pi-circle"></p-rating>
+    </div>
+    <ng-container *ngIf="!isLast">
+      <p-divider></p-divider>
+    </ng-container>
+  </div>
+
+<div class="hidden md:flex">
+  <div class="flex-column flex-1">
+    <ng-container  *ngFor="let skill of skills; last as isLast; even as isEven; count as count; index as index;">
+        <ng-container *ngIf="isEven">
+          <div class="flex justify-content-between mb-2 mx-2">
+            <div>{{skill.name}}</div>
+            <p-rating [(ngModel)]=skill.level [stars]=3 [cancel]="false" [readonly]=true iconOnClass="pi pi-circle-fill" iconOffClass="pi pi-circle"></p-rating>
+          </div>
+        </ng-container>
+      <ng-container *ngIf="!isLast && index+2 !== count && isEven">
+        <p-divider></p-divider>
+      </ng-container>
+    </ng-container>
+  </div>
+
+  <p-divider layout="vertical"></p-divider>
+
+  <div class="flex-column flex-1">
+    <ng-container  *ngFor="let skill of skills; last as isLast; odd as isOdd; count as count; index as index;">
+        <ng-container *ngIf="isOdd">
+          <div class="flex justify-content-between mb-2 mx-2">
+            <div>{{skill.name}}</div>
+            <p-rating [(ngModel)]=skill.level [stars]=3 [cancel]="false" [readonly]=true iconOnClass="pi pi-circle-fill" iconOffClass="pi pi-circle"></p-rating>
+          </div>
+        </ng-container>
+      <ng-container *ngIf="!isLast && index+2 !== count && isOdd">
+        <p-divider></p-divider>
+      </ng-container>
+    </ng-container>
+  </div>
+</div>
+
+</p-panel>
+

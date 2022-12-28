@@ -1,5 +1,5 @@
 <app-profile-header [profileInfos]=profile.basicProfileInformations></app-profile-header>
 <app-summary [summary]=profile.summary></app-summary>
-<app-skills></app-skills>
+<app-skills [skills]="profile.skills"></app-skills>
 <app-experiences [experiences]=profile.experiences></app-experiences>
 <app-school-curriculum [schoolCurriculum]="profile.schoolCurriculum"></app-school-curriculum>
