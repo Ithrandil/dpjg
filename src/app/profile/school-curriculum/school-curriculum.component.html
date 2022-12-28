@@ -1,0 +1,9 @@
+<p-panel header="Formations">
+  <ng-container *ngFor="let school of schoolCurriculum; last as isLast">
+    <app-school [school]="school"></app-school>
+    <ng-container *ngIf="!isLast">
+      <p-divider></p-divider>
+    </ng-container>
+  </ng-container>
+</p-panel>
+

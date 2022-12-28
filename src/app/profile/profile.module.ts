@@ -8,6 +8,8 @@ import { ExperienceComponent } from './experience/experience.component';
 import { DividerModule } from 'primeng/divider';
 import { SummaryComponent } from './summary/summary.component';
 import { ProfileHeaderComponent } from './profile-header/profile-header.component';
+import { SchoolCurriculumComponent } from './school-curriculum/school-curriculum.component';
+import { SchoolComponent } from './school/school.component';
 
 
 
@@ -18,7 +20,9 @@ import { ProfileHeaderComponent } from './profile-header/profile-header.componen
     SkillsComponent,
     ExperienceComponent,
     SummaryComponent,
-    ProfileHeaderComponent
+    ProfileHeaderComponent,
+    SchoolCurriculumComponent,
+    SchoolComponent
   ],
   imports: [
     CommonModule,

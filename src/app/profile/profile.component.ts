@@ -51,6 +51,14 @@ export class ProfileComponent {
         location: 'Blaye (33)',
         date: 'juillet 2014 - février 2018 (3 ans et 7 mois)'
       },
-    ]
+    ],
+    schoolCurriculum: [
+      {
+        diplomaName: 'DUT Génie Civil option Maîtrise énergétique et environnementale',
+        schoolName: 'IUT Gradignan',
+        dateObtained: '2014',
+        description: 'TODOOOOOO Mettre une description peut être de lapport de ton option bla bla bla lbrejokjh oiuhrej rieuhier iouher iuher iuheriu heri uhuiuh '
+      },
+    ],
   }
 }

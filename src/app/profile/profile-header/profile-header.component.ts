@@ -17,7 +17,7 @@ export class ProfileHeaderComponent implements OnInit {
   ngOnInit() {
     this.mailTo += this.profileInfos.email;
     this.telTo += this.profileInfos.phoneNumber;
-    this.phoneNumber = this.profileInfos.phoneNumber.replace(/\B(?=(\d{2})+(?!\d))/g, " ")
+    this.phoneNumber = this.profileInfos.phoneNumber.replace(/\B(?=(\d{2})+(?!\d))/g, " ");
   }
 
 }
