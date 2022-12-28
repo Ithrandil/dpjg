@@ -55,7 +55,7 @@ export class MenuComponent implements OnInit {
       },
       {
         label: 'Me contacter',
-        icon: `${PrimeIcons.ID_CARD} my-margin-left`,
+        icon: PrimeIcons.ID_CARD,
         routerLink:['/contact']
       },
     ];

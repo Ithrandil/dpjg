@@ -1,0 +1,18 @@
+<div class="flex flex-column md:flex-row  align-items-center mt-3 text-center md:text-left">
+  <img alt="Photo de profil" [src]=contactInfos.profilePicUrl>
+  <div class="flex-1 md:ml-5">
+    <h1>{{contactInfos.firstName}} {{contactInfos.lastName}}</h1>
+    <p id="jobName">{{contactInfos.jobName}}</p>
+    <div class="flex flex-column md:flex-row">
+      <div>
+        <p><span class="pi pi-map mr-2"></span>{{contactInfos.location}}</p>
+        <p>{{contactInfos.yearsOfExperience}} an<ng-container *ngIf="contactInfos.yearsOfExperience>1">s</ng-container> d'expérience</p>
+      </div>
+      <div class="md:ml-5">
+        <p><span class="pi pi-envelope mr-2"></span> <a [href]=mailTo>{{contactInfos.email}}</a></p>
+        <p><span class="pi pi-phone mr-2"></span> <a [href]=telTo>{{phoneNumber}}</a></p>
+      </div>
+    </div>
+  </div>
+
+</div>
