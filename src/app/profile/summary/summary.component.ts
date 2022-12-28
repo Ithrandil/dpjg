@@ -1,4 +1,5 @@
-import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
+import {ChangeDetectionStrategy, Component, Input, OnInit, SecurityContext} from '@angular/core';
+import {DomSanitizer} from '@angular/platform-browser';
 
 @Component({
   selector: 'app-summary',
@@ -6,7 +7,14 @@ import {ChangeDetectionStrategy, Component, Input} from '@angular/core';
   styleUrls: ['./summary.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush
 })
-export class SummaryComponent {
+export class SummaryComponent implements OnInit {
   @Input() summary!: string;
+  public sanitizedSummary: string | null = '';
+  constructor(private domSanitizer: DomSanitizer) {
+  }
+
+  ngOnInit(): void {
+    this.sanitizedSummary = this.domSanitizer.sanitize(SecurityContext.HTML, this.summary);
+  }
 
 }
