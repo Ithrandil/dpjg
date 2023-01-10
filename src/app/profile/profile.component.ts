@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import {IProfile} from "../domain/IProfile";
+import {socialNetwork} from "../domain/ISocialNetwork";
 
 @Component({
   selector: 'app-profile',
@@ -16,7 +17,7 @@ export class ProfileComponent {
       email: 'julien.guerin.dp41@gmail.com',
       phoneNumber: '0643060287',
       jobName: 'Dessinateur projeteur',
-      yearsOfExperience: 5,
+      yearsOfExperience: 7,
       profilePicUrl: 'assets/profile/profilePicture.jpg',
       location: 'Vendôme'
     },
@@ -24,6 +25,13 @@ export class ProfileComponent {
       Je travaille depuis des années sur les logiciels AUTOCAD et EASYKUTCH pour des appels d'offre.<br><br>
       Les gros projets de bâtiments sont toujours sur plusieurs mois, ce qui implique un investissement tout du long. Connaissant le processus allant de l'implantation par un géomètre jusqu'à la remise du bâtiment au client. Je connais la communication à avoir avec la mairie, l'entourage, les problématiques de chantier propre, les validations des produits...
       <br><br>Je suis capable de vous accompagner pour tous vos projets.`,
+    socialNetworks:[
+      {
+        type: socialNetwork.LINKEDIN,
+        url: "",
+        wording: "Linkedin"
+      }
+    ],
     skills: [
       {
         name: 'AutoCAD',
@@ -99,7 +107,7 @@ export class ProfileComponent {
         diplomaName: 'DUT Génie Civil option Maîtrise énergétique et environnementale',
         schoolName: 'IUT Gradignan',
         dateObtained: '2014',
-        description: 'TODOOOOOO Mettre une description peut être de lapport de ton option bla bla bla lbrejokjh oiuhrej rieuhier iouher iuher iuheriu heri uhuiuh '
+        description: 'La spécialisation Maîtrise énergétique et environnementale permet de se spécialiser dans la construction durable. Elle permet de maitriser l’ensemble des techniques de construction, des fondations et des structures, la gestion de projet, la conduite d’équipe et les enjeux sociaux, économiques et juridiques du secteur de l’environnement pour concevoir des bâtiments durables et respectueux de l’environnement.'
       },
     ],
   }

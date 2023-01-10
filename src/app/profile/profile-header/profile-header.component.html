@@ -8,9 +8,12 @@
         <p><span class="pi pi-map mr-2"></span>{{profileInfos.location}}</p>
         <p>{{profileInfos.yearsOfExperience}} an<ng-container *ngIf="profileInfos.yearsOfExperience>1">s</ng-container> d'expérience</p>
       </div>
-      <div class="md:ml-5">
+      <div class="md:ml-5" >
         <p><span class="pi pi-envelope mr-2"></span> <a [href]=mailTo>{{profileInfos.email}}</a></p>
         <p><span class="pi pi-phone mr-2"></span> <a [href]=telTo>{{phoneNumber}}</a></p>
+      </div>
+      <div class="md:ml-5" *ngFor="let socialNetwork of socialNetworks">
+        <p><span [class]=socialNetworkClass(socialNetwork.type)></span> <a [href]=socialNetwork.url target="_blank">{{socialNetwork.wording}}</a></p>
       </div>
     </div>
   </div>

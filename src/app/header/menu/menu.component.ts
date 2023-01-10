@@ -12,11 +12,11 @@ export class MenuComponent implements OnInit {
 
   ngOnInit() {
     this.items = [
-      {
+     /* {
         label: 'Accueil',
         icon: PrimeIcons.HOME,
         routerLink:['/']
-      },
+      },*/
       {
         label: 'Mes compétences',
         icon: PrimeIcons.BOOK,
