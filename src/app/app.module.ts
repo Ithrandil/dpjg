@@ -24,7 +24,7 @@ import {ProspectModule} from "./prospect/prospect.module";
     ProfileModule,
     HomeModule,
     ContactModule,
-    ProspectModule
+    ProspectModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,6 +7,12 @@ body .p-component {
   font-family: 'Montserrat', sans-serif;
 }
 
+body{
+  margin: 0;
+  --background-color: #e9ecef;
+  background-color: var(--background-color);
+}
+
 /* Link style */
 :hover .link {
   cursor: pointer;
@@ -18,4 +24,3 @@ a:active,
 a:hover {
   color: black;
 }
-

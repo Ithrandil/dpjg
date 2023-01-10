@@ -1,5 +1,15 @@
 <app-profile-header [profileInfos]=profile.basicProfileInformations [socialNetworks]="profile.socialNetworks!"></app-profile-header>
-<app-summary [summary]=profile.summary></app-summary>
-<app-skills [skills]="profile.skills"></app-skills>
-<app-experiences [experiences]=profile.experiences></app-experiences>
-<app-school-curriculum [schoolCurriculum]="profile.schoolCurriculum"></app-school-curriculum>
+<div class="m-2 md:my-6 md:mx-8 profilePage">
+  <div class="my-3">
+    <app-summary [summary]=profile.summary></app-summary>
+  </div>
+  <div class="my-3">
+    <app-skills [skills]="profile.skills"></app-skills>
+  </div>
+  <div class="my-3">
+    <app-experiences [experiences]=profile.experiences></app-experiences>
+  </div>
+  <div class="my-3">
+    <app-school-curriculum [schoolCurriculum]="profile.schoolCurriculum"></app-school-curriculum>
+  </div>
+</div>

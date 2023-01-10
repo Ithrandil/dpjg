@@ -12,6 +12,7 @@ import { SchoolCurriculumComponent } from './school-curriculum/school-curriculum
 import { SchoolComponent } from './school/school.component';
 import { RatingModule } from 'primeng/rating';
 import {FormsModule} from "@angular/forms";
+import { CardModule } from 'primeng/card';
 
 
 
@@ -31,7 +32,8 @@ import {FormsModule} from "@angular/forms";
     PanelModule,
     DividerModule,
     RatingModule,
-    FormsModule
+    FormsModule,
+    CardModule,
 ]
 })
 export class ProfileModule { }
