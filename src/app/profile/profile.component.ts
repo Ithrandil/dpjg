@@ -1,6 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import {IProfile} from "../domain/IProfile";
-import {socialNetwork} from "../domain/ISocialNetwork";
 
 @Component({
   selector: 'app-profile',
@@ -26,11 +25,11 @@ export class ProfileComponent {
       Les gros projets de bâtiments sont toujours sur plusieurs mois, ce qui implique un investissement tout du long. Connaissant le processus allant de l'implantation par un géomètre jusqu'à la remise du bâtiment au client. Je connais la communication à avoir avec la mairie, l'entourage, les problématiques de chantier propre, les validations des produits...
       <br><br>Je suis capable de vous accompagner pour tous vos projets.`,
     socialNetworks:[
-      {
+      /*{
         type: socialNetwork.LINKEDIN,
         url: "",
         wording: "Linkedin"
-      }
+      }*/
     ],
     skills: [
       {

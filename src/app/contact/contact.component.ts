@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import {IBasicProfileInformations} from "../domain/IBasicProfileInformations";
-import {ISocialNetwork, socialNetwork} from "../domain/ISocialNetwork";
+import {ISocialNetwork} from "../domain/ISocialNetwork";
 
 @Component({
   selector: 'app-contact',
@@ -22,10 +22,10 @@ export class ContactComponent {
   }
 
   public socialNetworks: ISocialNetwork[] = [
-    {
+    /*{
       type: socialNetwork.LINKEDIN,
       url: "",
       wording: "Linkedin"
-    }
+    }*/
   ];
 }
