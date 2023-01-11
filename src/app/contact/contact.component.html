@@ -1,2 +1,12 @@
 <app-contact-blade [contactInfos]=contactInfos [socialNetworks]="socialNetworks!"></app-contact-blade>
-<app-map></app-map>
+<div class="flex flex-column md:flex-row justify-content-evenly">
+  <div class="align-self-center">
+    <p class="underline">Mes honoraires :</p>
+    <ul class="mb-5">
+      <li>au temps passé 30€/h</li>
+      <li>200€/journée</li>
+      <li>au forfait selon l’importance de la mission</li>
+    </ul>
+  </div>
+  <app-map></app-map>
+</div>
