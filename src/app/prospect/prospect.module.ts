@@ -5,6 +5,10 @@ import { RealEstateProspectComponent } from './real-estate-prospect/real-estate-
 import { ArchitectProspectComponent } from './architect-prospect/architect-prospect.component';
 import { TownshipProspectComponent } from './township-prospect/township-prospect.component';
 import {DesignOfficeProspectComponent} from "./design-office/design-office-prospect.component";
+import {FieldsetModule} from "primeng/fieldset";
+import { TemplateProspectComponent } from './template-prospect/template-prospect.component';
+import {ButtonModule} from "primeng/button";
+import {RouterLink} from "@angular/router";
 
 
 
@@ -14,10 +18,14 @@ import {DesignOfficeProspectComponent} from "./design-office/design-office-prosp
     RealEstateProspectComponent,
     ArchitectProspectComponent,
     TownshipProspectComponent,
-    DesignOfficeProspectComponent
+    DesignOfficeProspectComponent,
+    TemplateProspectComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FieldsetModule,
+    ButtonModule,
+    RouterLink
   ]
 })
 export class ProspectModule { }
