@@ -10,9 +10,7 @@ import {TownshipProspectComponent} from "./prospect/township-prospect/township-p
 import {DesignOfficeProspectComponent} from "./prospect/design-office/design-office-prospect.component";
 
 const routes: Routes = [
-  // { path: '', component: HomeComponent},
-  // FIXME: en attendant d'avoir des images
-  { path: '', component: ProfileComponent},
+  { path: '', component: HomeComponent},
   { path: 'profil', component: ProfileComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'gros-oeuvre', component: StructuralWorkProspectComponent},

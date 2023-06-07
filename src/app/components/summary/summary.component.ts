@@ -1,7 +1,10 @@
 import {ChangeDetectionStrategy, Component, Input, OnInit, SecurityContext} from '@angular/core';
 import {DomSanitizer} from '@angular/platform-browser';
+import {CardModule} from "primeng/card";
 
 @Component({
+  standalone: true,
+  imports: [CardModule],
   selector: 'app-summary',
   templateUrl: './summary.component.html',
   styleUrls: ['./summary.component.scss'],

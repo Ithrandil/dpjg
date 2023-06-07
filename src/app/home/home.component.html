@@ -1,1 +1,35 @@
-<p>home works!</p>
+<div class="m-2 md:my-6 md:mx-8">
+  <h1 class="text-center">Julien Guérin, dessinateur projeteur</h1>
+  <div class="my-3">
+    <app-summary [summary]="summary"></app-summary>
+  </div>
+  <div class="my-3">
+    <p-card header="Vous êtes un(e)..." class="">
+      <div class="flex flex-column md:flex-row md:justify-content-between">
+        <button pButton class="p-button-lg mb-3 justify-content-between md:mx-2 md:max-w-17rem" routerLink="/gros-oeuvre">
+          <i class="pi pi-truck" style="font-size: 2rem"></i>
+          <span class="ml-3 font-bold text-center">Entreprise de gros oeuvre</span>
+        </button>
+        <button pButton class="p-button-lg mb-3 justify-content-between md:mx-2 md:max-w-17rem" routerLink="/immobilier">
+          <i class="pi pi-briefcase" style="font-size: 2rem"></i>
+          <span class="ml-3 font-bold text-center">Agence immo<br/>Syndic de copro</span>
+        </button>
+        <button pButton class="p-button-lg mb-3 justify-content-between md:mx-2 md:max-w-17rem" routerLink="/architecture">
+          <i class="pi pi-home" style="font-size: 2rem"></i>
+          <span class="ml-3 font-bold text-center">Cabinet d'architecte</span>
+        </button>
+        <button pButton class="p-button-lg mb-3 justify-content-between md:mx-2 md:max-w-17rem" routerLink="/bureau-etude">
+          <i class="pi pi-map" style="font-size: 2rem"></i>
+          <span class="ml-3 font-bold text-center">Bureau d'étude</span>
+        </button>
+        <button pButton class="p-button-lg mb-3 justify-content-between md:mx-2 md:max-w-17rem" routerLink="/collectivite">
+          <i class="pi pi-users" style="font-size: 2rem"></i>
+          <span class="ml-3 font-bold text-center">Municipalité<br/>Collectivité</span>
+        </button>
+      </div>
+    </p-card>
+  </div>
+  <div class="my-3 flex justify-content-center">
+    <app-galeria></app-galeria>
+  </div>
+</div>
