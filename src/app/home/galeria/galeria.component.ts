@@ -11,6 +11,52 @@ export class GaleriaComponent implements OnInit {
   ngOnInit() {
     this.images = [
       {
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0001-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0002-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0003-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0004-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0005-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0006-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0007-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0008-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0009-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0010-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0011-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0012-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0013-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0014-min.jpg',
+        alt: 'Description for Image 1',
+      },{
+        itemImageSrc: '../../assets/galleria/Plan Beton_compressed_page-0015-min.jpg',
+        alt: 'Description for Image 1',
+      },
+      {
         itemImageSrc: '../../assets/galleria/maison1.jpg',
         alt: 'Description for Image 1',
       },
@@ -27,11 +73,11 @@ export class GaleriaComponent implements OnInit {
         alt: 'Description for Image 1',
       },
       {
-        itemImageSrc: '../../assets/galleria/maison_mamie.jpg',
+        itemImageSrc: '../../assets/galleria/maison_m.jpg',
         alt: 'Description for Image 1',
       },
       {
-        itemImageSrc: '../../assets/galleria/pouet.jpg',
+        itemImageSrc: '../../assets/galleria/maison_p.jpg',
         alt: 'Description for Image 1',
       },
     ];
